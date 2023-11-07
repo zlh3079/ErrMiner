@@ -16,4 +16,8 @@ Experimental results indicate that when applied to error mining tasks for live c
 - `train.py : a file for model pre-training`
 - `transfer.py : a file for model fine-tuning`
 ## 2 How it operates
-Firstly, we pre-train on the Deduplicated dataset. Secondly, we fine-tune using the Augmented dataset. Lastly, we test the results on the Processed dataset.
+Firstly, we pre-train on the Deduplicated dataset. 
+
+Secondly, we fine-tune using the Augmented dataset. 
+
+Lastly, we test the results on the Processed dataset.
