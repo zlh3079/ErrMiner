@@ -15,9 +15,16 @@ Experimental results indicate that when applied to error mining tasks for live c
 - `FocalLoss.py : focal loss function`
 - `train.py : a file for model pre-training`
 - `transfer.py : a file for model fine-tuning`
-## 2 How it operates
+## 3 How it operates
 - `Firstly, we pre-train on the Deduplicated dataset. `
 
 - `Secondly, we fine-tune using the Augmented dataset.` 
 
 - `Lastly, we test the results on the Processed dataset.`
+## 4 Environment configuration
+- `python== 3.8.18`
+- `pytorch==1.10.0+cu113`
+- `numpy==1.24.3`
+- `tqdm==4.65.0`
+- `pandas==2.0.3`
+- `transformers==4.34.1`
